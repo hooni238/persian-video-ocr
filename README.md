@@ -21,6 +21,7 @@ $ pip install opencv-python pytesseract
 Also, you need to install Persian Tesseract-OCR:
 $ sudo apt-get install tesseract-ocr-fas
 
+
 You can find more about TesserOCR from the [TesserOCR repository](https://pypi.org/project/tesserocr/). You can find other languages from [here](https://github.com/tesseract-ocr/tessdoc/blob/main/Data-Files.md).
 
 ## Usage
