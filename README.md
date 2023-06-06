@@ -15,6 +15,7 @@ To run this code, you will need to have the following libraries installed:
 You can install these libraries using pip:
 
 $ apt-get install tesseract-ocr libtesseract-dev libleptonica-dev pkg-config
+
 $ pip install opencv-python pytesseract
 
 Also, you need to install Persian Tesseract-OCR:
