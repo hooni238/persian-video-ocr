@@ -14,23 +14,22 @@ To run this code, you will need to have the following libraries installed:
 
 You can install these libraries using pip:
 <pre>
-'''
 $ apt-get install tesseract-ocr libtesseract-dev libleptonica-dev pkg-config
-
 $ pip install opencv-python pytesseract
-'''
 </pre>
 Also, you need to install Persian Tesseract-OCR:
+<pre>
 $ sudo apt-get install tesseract-ocr-fas
-
+</pre>
 
 You can find more about TesserOCR from the [TesserOCR repository](https://pypi.org/project/tesserocr/). You can find other languages from [here](https://github.com/tesseract-ocr/tessdoc/blob/main/Data-Files.md).
 
 ## Usage
 
 To use this code, run the following command:
-
+<pre>
 $ python ocr_video_frames.py --input MyVideo_1.mp4 
+</pre>
 The `--input` parameter specifies the path to the input video file.
 The output.txt contain the extracted text.
 
