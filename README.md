@@ -28,7 +28,7 @@ You can find more about TesserOCR from the [TesserOCR repository](https://pypi.o
 
 To use this code, run the following command:
 <pre>
-$ python ocr_video_frames.py --input MyVideo_1.mp4 
+$ python main.py --input MyVideo_1.mp4 
 </pre>
 The `--input` parameter specifies the path to the input video file.
 The output.txt contain the extracted text.
