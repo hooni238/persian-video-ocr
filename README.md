@@ -13,11 +13,13 @@ To run this code, you will need to have the following libraries installed:
 - pytesseract
 
 You can install these libraries using pip:
-
+<pre>
+'''
 $ apt-get install tesseract-ocr libtesseract-dev libleptonica-dev pkg-config
 
 $ pip install opencv-python pytesseract
-
+'''
+</pre>
 Also, you need to install Persian Tesseract-OCR:
 $ sudo apt-get install tesseract-ocr-fas
 
